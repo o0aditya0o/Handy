@@ -96,7 +96,7 @@ public class ProcessIns {
             }
         }
         else if(ins.charAt(0)=='P'){
-            String s[]={"/bin/sh","-c","gedit"};
+            String s[]={"/bin/sh","-c","poweroff"};
             try {
                 Runtime.getRuntime().exec(s);
             } catch (IOException ex) {
